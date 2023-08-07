@@ -32,7 +32,54 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.w-33 {
+  width: 33.33%;
+  border: 2px solid black;
+  margin: 0px 10px 50px 0px;
+  overflow: hidden;
+}
+
+.w-331 {
+  margin: 0px 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.contanier {
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+.round {
+  margin: 20px;
+  overflow: hidden;
+}
+
+img {
+  width: auto;
+  height: 300px
+}
+
+.round2 {
+  object-fit: cover;
+  width: 100%;
+
+}
+
+.round2 img {
+  width: 400px;
+  border-radius: 20px;
+
 }
